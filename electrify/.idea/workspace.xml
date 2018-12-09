@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38831aae-ca28-4a5d-a973-3e6299907648" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/electrify/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/electrify/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/electrify/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/electrify/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
