@@ -1,6 +1,8 @@
 
 ● We have electricity consumption data that is needed by one of our algorithms, with the output being served to other internal services. We have provided some sample data that shows the structure, and will give insight into how it should be stored.
+
 ● One of the consumers of the API will be an internal algorithm that will process the raw data and match intervals with buyers and sellers. It is possible that this algorithm runs more than once for the same set of raw data, with differing outputs.
+
 ● The raw data consists of interval readings keyed by icp_id. The algorithm will output data that will also need to be stored, which has similar columns but will also need an additional buyer/seller identifier.
 Your tasks
 1. Design an API that...
