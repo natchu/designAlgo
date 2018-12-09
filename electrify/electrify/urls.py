@@ -16,7 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from . import views
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'fetchRawData/')
+    url(r'fetchRawData/(?P<from_year>[0-9]{4})-(?P<from_month>[0-9]{2})-(?P<from_day>[0-9]{2})/to/(?P<to_year>[0-9]{4})-(?P<to_month>[0-9]{2})-(?P<to_day>[0-9]{2})/',views.fetch_raw_data)
 ]
