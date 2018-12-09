@@ -1,0 +1,11 @@
+Create base application and connect to database
+
+Provide realtime input to the application - hit the app server via api - then store the data that comes in the request body to the database
+
+Create api to filter the raw data from database - query based filter - filter params from the url
+
+API to aggregate the data based on the algorithm - Use the Filter by date range API to retrive the raw data for a particular date range - perform the transformation here - logic not clear as I am not able to understand the domain data yet
+
+API to give paginated results after transformation - Add parameters to the api to perform pagination, based on the pagination, the results retrieved should vary
+
+API to filter by icp_id, take the results of the aggregated by a date range algo and filter the result by icp_id and return only the subset where the key matches 
